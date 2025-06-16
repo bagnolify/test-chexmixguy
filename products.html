@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Chex Mix Guy</title>
+    <meta name="description" content="Explore our delicious Chex Mix varieties in various sizes and flavors. Perfect for any occasion.">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+    
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="../images/new-logo.png" alt="Chex Mix Guy Logo">
+                <h1>Chex Mix Guy</h1>
+            </div>
+            
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="fundraising.html">Fundraising</a></li>
+                    <li><a href="order.html">Order Now</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Page Header -->
+    <section class="page-header" style="background-image: url('../images/hero-bg-real.jpg');">
+        <div class="page-header-content">
+            <h1 data-aos="fade-up">Our Products</h1>
+            <ul class="breadcrumbs" data-aos="fade-up" data-aos-delay="200">
+                <li><a href="../index.html">Home</a></li>
+                <li>Products</li>
+            </ul>
+        </div>
+    </section>
+    
+    <!-- Products Introduction -->
+    <section class="products-intro">
+        <div class="container">
+            <div class="section-title text-center fade-in">
+                <h2>Discover Our Flavors</h2>
+                <p>All of our Chex Mix varieties are handcrafted in small batches using premium ingredients to ensure the perfect balance of flavors and textures. Choose from our three signature flavor profiles or try them all!</p>
+            </div>
+            
+            <div class="flavor-options fade-in" data-aos="fade-up">
+                <span class="flavor-tag">Sweet</span>
+                <span class="flavor-tag">Savory</span>
+                <span class="flavor-tag">Spicy</span>
+            </div>
+            
+            <div class="section-info text-center fade-in" data-aos="fade-up">
+                <h3>Ordering Process</h3>
+                <p>Browse our products below, then visit our <a href="order.html">Order Now</a> page to place your order. We offer pickup and delivery options throughout Honolulu.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Individual Size Products -->
+    <section id="individual-sizes" class="products-section">
+        <div class="container">
+            <div class="section-title text-center fade-in">
+                <h2>Individual Sizes</h2>
+                <p>Perfect for personal snacking or sharing with family and friends.</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- 16oz Single Size Container -->
+                <div id="16oz" class="product-card hover-lift hover-shadow fade-in" data-aos="fade-up">
+                    <span class="product-badge">Popular</span>
+                    <div class="product-image hover-zoom">
+                        <img src="../images/16oz-container-real.jpg" alt="16oz Single Size Container">
+                    </div>
+                    <div class="product-info">
+                        <h3>16oz Single Size Container</h3>
+                        <p>Perfect for individual snacking</p>
+                        <ul class="product-features">
+                            <li>Great for on-the-go snacking</li>
+                            <li>Resealable container</li>
+                        </ul>
+                        <div class="product-price">$7.00</div>
+                        <a href="order.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- 32oz Family Size Container -->
+                <div id="32oz" class="product-card hover-lift hover-shadow fade-in" data-aos="fade-up" data-aos-delay="200">
+                    <span class="product-badge">Family Size</span>
+                    <div class="product-image hover-zoom">
+                        <img src="../images/32oz-container-real.jpg" alt="32oz Family Size Container">
+                    </div>
+                    <div class="product-info">
+                        <h3>32oz Family Size Container</h3>
+                        <p>Great for sharing with family</p>
+                        <ul class="product-features">
+                            <li>Perfect for movie nights</li>
+                            <li>Durable storage container</li>
+                            <li>Great value for families</li>
+                        </ul>
+                        <div class="product-price">$12.00</div>
+                        <a href="order.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- 64oz Jumbo Size Bag -->
+                <div id="64oz" class="product-card hover-lift hover-shadow fade-in" data-aos="fade-up" data-aos-delay="400">
+                    <span class="product-badge">Best Value</span>
+                    <div class="product-image hover-zoom">
+                        <img src="../images/64oz-bag-real.jpg" alt="64oz Jumbo Size Bag">
+                    </div>
+                    <div class="product-info">
+                        <h3>64oz Jumbo Size Bag</h3>
+                        <p>Perfect for big gatherings</p>
+                        <ul class="product-features">
+                            <li>Ideal for parties and events</li>
+                            <li>Resealable packaging</li>
+                            <li>Our most economical option</li>
+                        </ul>
+                        <div class="product-price">$20.00</div>
+                        <a href="order.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Party Favors -->
+    <section id="party-favors" class="products-section bg-light">
+        <div class="container">
+            <div class="section-title text-center fade-in">
+                <h2>Party Favors</h2>
+                <p>Perfect for events, party favors, and small gifts.</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Mini Snack Pack Party Favors -->
+                <div class="product-card hover-lift hover-shadow fade-in" data-aos="fade-up">
+                    <span class="product-badge">Party Favor</span>
+                    <div class="product-image hover-zoom">
+                        <img src="../images/mini-snack-pack-real.jpg" alt="Mini Snack Pack Party Favors">
+                    </div>
+                    <div class="product-info">
+                        <h3>Mini Snack Pack Party Favors</h3>
+                        <p>Individual sized treats</p>
+                        <ul class="product-features">
+                            <li>Perfect for goodie bags</li>
+                            <li>Individually sealed for freshness</li>
+                            <li>Customizable labels available</li>
+                        </ul>
+                        <div class="product-price">$2.00</div>
+                        <a href="order.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- Small Snack Pack Party Favors -->
+                <div class="product-card hover-lift hover-shadow fade-in" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-image hover-zoom">
+                        <img src="../images/small-snack-pack-real.jpg" alt="Small Snack Pack Party Favors">
+                    </div>
+                    <div class="product-info">
+                        <h3>Small Snack Pack Party Favors</h3>
+                        <p>Perfect party favors</p>
+                        <ul class="product-features">
+                            <li>Perfect for goodie bags</li>
+                            <li>Individually sealed for freshness</li>
+                            <li>Customizable labels available</li>
+                        </ul>
+                        <div class="product-price">$4.00</div>
+                        <a href="order.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Party Trays -->
+    <section id="party-trays" class="products-section">
+        <div class="container">
+            <div class="section-title text-center fade-in">
+                <h2>Party Trays</h2>
+                <p>Perfect for events, parties, and large gatherings.</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Regular Party Size Tray -->
+                <div class="product-card hover-lift hover-shadow fade-in" data-aos="fade-up">
+                    <div class="product-image hover-zoom">
+                        <img src="../images/regular-party-tray-real.jpg" alt="Regular Party Size Tray">
+                    </div>
+                    <div class="product-info">
+                        <h3>Regular Party Size Tray</h3>
+                        <p>Ideal for medium events</p>
+                        <ul class="product-features">
+                            <li>Serves 15-20 people</li>
+                            <li>Professional catering presentation</li>
+                            <li>Mix and match flavors available</li>
+                        </ul>
+                        <div class="product-price">$50.00</div>
+                        <a href="order.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+                
+                <!-- Large Party Size Tray -->
+                <div class="product-card hover-lift hover-shadow fade-in" data-aos="fade-up" data-aos-delay="200">
+                    <span class="product-badge">Catering Size</span>
+                    <div class="product-image hover-zoom">
+                        <img src="../images/large-party-tray-real.jpg" alt="Large Party Size Tray">
+                    </div>
+                    <div class="product-info">
+                        <h3>Large Party Size Tray</h3>
+                        <p>Perfect for large events</p>
+                        <ul class="product-features">
+                            <li>Serves 30-40 people</li>
+                            <li>Professional catering presentation</li>
+                            <li>Mix and match flavors available</li>
+                        </ul>
+                        <div class="product-price">$80.00</div>
+                        <a href="order.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="text-center fade-in" data-aos="fade-up">Ready to Place Your Order?</h2>
+            <p class="text-center fade-in" data-aos="fade-up" data-aos-delay="200">We're just a click away from delivering our delicious Chex Mix to your doorstep.</p>
+            <div class="text-center">
+                <a href="order.html" class="btn btn-light btn-large fade-in" data-aos="fade-up" data-aos-delay="400">Order Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Chex Mix Guy</h3>
+                    <p>Bringing joy through delicious, handcrafted Chex Mix since 2020. Made with love in Honolulu, Hawaii.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="order.html">Order Now</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Products</h3>
+                    <ul class="footer-links">
+                        <li><a href="#16oz">16oz Container</a></li>
+                        <li><a href="#32oz">32oz Container</a></li>
+                        <li><a href="#64oz">64oz Jumbo Bag</a></li>
+                        <li><a href="#party-favors">Party Favors</a></li>
+                        <li><a href="#party-trays">Party Trays</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> (808) 555-1234</li>
+                        <li><i class="fas fa-envelope"></i> info@chexmixguy.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Honolulu, Hawaii</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chex Mix Guy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
